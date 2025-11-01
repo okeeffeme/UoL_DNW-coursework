@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/okeeffeme/UoL_DNW-coursework#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
 }
