@@ -6,6 +6,9 @@ const port = 3000;
 // Set the rendering engine for Express to EJS
 app.set("view engine", "ejs");
 
+// Set up the body parser
+app.use(express.urlencoded({ extended: true }));
+
 // Load the route handlers
 const mainRoutes = require("./routes/main.js");
 app.use('/', mainRoutes);

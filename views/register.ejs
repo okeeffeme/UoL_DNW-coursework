@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <!-- Code from fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- End code from fonts.google.com -->
+    <!-- <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css"> -->
+</head>
+
+<body>
+    <div class="page-title">
+        <h1><%= title %></h1>
+    </div>
+    <main>
+    <h1> This is the register page </h1>
+    <form method="POST" action="/registered">
+        First Name:<input id="first" type="text" name="first"/>
+        Last Name:<input id="last" type="text" name="last" />
+        <input type="submit" value="OK" />
+    </form>
+</main>
+<footer>
+    <h4>Copyright © 20XX - Thanks for being here</h4>
+</footer>
+</body>
+
+</html>
